@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 200px;
+    width: 100%;
+    border: solid 1px blue;
+}
+.menu{
+    
+    width: 100%;
+    border: solid 1px rgb(255, 0, 21);
+    margin-top: 5px;
+}
+.list_menu{
+    display: flex;
+    justify-content: center;
+}
+.list_menu li{
+    padding: 10px;
+    list-style-type: none;
+}
+.list_menu li:hover{
+    background-color: aqua;
+    color: black;
+}
+.list_menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    border: solid 1px rgb(255, 0, 21);
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.main .sideber {
+    
+    width: 15%;
+    border: solid 1px rgb(0, 255, 115);
+    margin-left: 5px;  
+}
+.sideber .list_sidebar li{
+    text-align: center;
+    padding: 5px;
+}
+.sideber .list_sidebar li:hover{
+    background-color: rgb(255, 166, 0);
+    color: black;
+}
+.sideber .list_sidebar a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main .maincontent {
+  
+  
+    width: 84%;
+    border: solid 1px rgb(22, 22, 21);
+}
+
+
+/* .product */
+.maincontent .product {
+    display: flex;
+    flex-wrap:wrap;
+    
+   
+}
+.maincontent .product {
+    display: flex;
+    flex-wrap:wrap;
+    
+   
+}
+.maincontent .product form {
+    
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.maincontent .product li{
+    height: 300px;
+    margin: 2px;
+    border-radius: 10px;
+    position: relative;
+    list-style-type: none;
+    width: calc(25% - 4px);
+    border: solid 1px rgb(214, 104, 60);
+}
+
+.mua{
+    background-color: brown;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 80%;
+}
+.maincontent .product a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    height: 100%;
+    width: 100%;
+}
+
+.maincontent .product img{
+    width: 100%;
+    height: 60%;
+    border: solid 1px rgb(233, 200, 10);
+    
+}
+
+.maincontent .product p{
+    padding:5px;
+    text-align: center; 
+    height: 30%;
+}
+.maincontent .product .mua{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+
+
+/* chi tiet san pham */
+.wapper_chitietsanpham{
+    display: flex;
+}
+
+.hinhanhsp{
+    margin: 0 20px 10px 10px;
+}
+.addcart{
+    background-color: brown;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* gio hang */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+    
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #customers tr:hover {background-color: #ddd;}
+    
+    #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    }
+    
+     a{
+        text-decoration: none;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .sua{
+       
+        border: none;
+        color: black;
+        padding:10px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 10px;
+        cursor: pointer;
+        background-color: yellow;
+    }
